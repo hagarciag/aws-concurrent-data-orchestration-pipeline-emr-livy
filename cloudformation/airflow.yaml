@@ -60,7 +60,7 @@ Resources:
     Properties:
       KeyName: !Ref 'KeyName'
       SecurityGroups: [!Ref 'AirflowEC2SecurityGroup']
-      InstanceType: 'm4.xlarge'
+      InstanceType: 't2.medium'
       IamInstanceProfile:
         Ref: EC2InstanceProfile
       Tags:
